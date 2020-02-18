@@ -1,0 +1,211 @@
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+  url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProBold/GothamProBold.eot");
+  src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+  url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProBlack/GothamProBlack.eot");
+  src: url("../fonts/GothamProBlack/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProBlack/GothamProBlack.woff") format("woff"),
+  url("../fonts/GothamProBlack/GothamProBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+  src: url("../fonts/GothamProItalic/GothamProItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+  url("../fonts/GothamProItalic/GothamProItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+  src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+  url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProLight/GothamProLight.eot");
+  src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
+  url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot");
+  src: url("../fonts/GothamProMediumItalic/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProMediumItalic/GothamProMediumItalic.woff") format("woff"),
+  url("../fonts/GothamProMediumItalic/GothamProMediumItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot");
+  src: url("../fonts/GothamProLightItalic/GothamProLightItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProLightItalic/GothamProLightItalic.woff") format("woff"),
+  url("../fonts/GothamProLightItalic/GothamProLightItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot");
+  src: url("../fonts/GothamProBoldItalic/GothamProBoldItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProBoldItalic/GothamProBoldItalic.woff") format("woff"),
+  url("../fonts/GothamProBoldItalic/GothamProBoldItalic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot");
+  src: url("../fonts/GothamProBlackItalic/GothamProBlackItalic.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/GothamProBlackItalic/GothamProBlackItalic.woff") format("woff"),
+  url("../fonts/GothamProBlackItalic/GothamProBlackItalic.ttf") format("truetype");
+  font-style: 900;
+  font-weight: italic;
+}
+
+
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-LightIt.eot');
+  src: local('Proxima Nova Light Italic'), local('ProximaNova-LightIt'),
+    url('../fonts/ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-LightIt.woff') format('woff'),
+    url('../fonts/ProximaNova-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Extrabld.eot');
+  src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+    url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
+    url('../fonts/ProximaNova-Extrabld.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+    url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Regular.woff') format('woff'),
+    url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Semibold.eot');
+  src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+    url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+    url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-SemiboldIt.eot');
+  src: local('Proxima Nova Semibold Italic'), local('ProximaNova-SemiboldIt'),
+    url('../fonts/ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-SemiboldIt.woff') format('woff'),
+    url('../fonts/ProximaNova-SemiboldIt.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-RegularIt.eot');
+  src: local('Proxima Nova Regular Italic'), local('ProximaNova-RegularIt'),
+    url('../fonts/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-RegularIt.woff') format('woff'),
+    url('../fonts/ProximaNova-RegularIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+    url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-BoldIt.eot');
+  src: local('Proxima Nova Bold Italic'), local('ProximaNova-BoldIt'),
+    url('../fonts/ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-BoldIt.woff') format('woff'),
+    url('../fonts/ProximaNova-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Light.eot');
+  src: local('Proxima Nova Light'), local('ProximaNova-Light'),
+    url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-Light.woff') format('woff'),
+    url('../fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-ExtrabldIt.eot');
+  src: local('Proxima Nova Extrabold Italic'), local('ProximaNova-ExtrabldIt'),
+    url('../fonts/ProximaNova-ExtrabldIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova-ExtrabldIt.woff') format('woff'),
+    url('../fonts/ProximaNova-ExtrabldIt.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}

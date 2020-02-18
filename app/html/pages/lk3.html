@@ -1,0 +1,88 @@
+@@include('../parts/header.html')
+
+<div class="widget-horizontal">
+    <img src="images/widget-horizontal.png" alt="" />
+</div>
+
+<div class="lk">
+    <div class="container">
+        <div class="lk__meta">
+            <div class="lk__avatar" style="background-image: url(images/avatar.png);">
+                <div class="add-avatar"><img src="images/add_avatar.svg" alt=""></div>
+            </div>
+            <div class="lk__name">
+                <strong>Артем Сребный</strong>
+                Ростов-на-Дону
+            </div>
+
+            <div class="lk__navigation">
+                <a href="/lk.html" class="lk__link"><img src="images/lk_ico1.svg" class="svg" alt="">
+                    Профиль</a>
+                <a href="/lk2.html" class="lk__link"><img src="images/lk_ico2.svg" class="svg" alt=""> Уведомления <span
+                        class="att">+99</span></a>
+                <a href="/lk3.html" class="lk__link lk__link--current"><img src="images/lk_ico3.svg" class="svg" alt="">
+                    Платежи</a>
+                <a href="/lk4.html" class="lk__link"><img src="images/lk_ico4.svg" class="svg" alt=""> Сертификаты</a>
+                <a href="/lk5.html" class="lk__link"><img src="images/lk_ico5.svg" class="svg" alt=""> Виджеты</a>
+            </div>
+        </div>
+        <div class="lk__content">
+            <div class="breadcrumbs breadcrumbs--dark">
+                <a href="#">Главная</a>
+                <span class="sep">|</span>
+                <span class="current">Платежи</span>
+            </div>
+            <h1>История платежей</h1>
+
+            <form action="#">
+                <div class="form-row">
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                        </select>
+                    </div>
+
+                    <div class="select">
+                        <select name="" id="">
+                            <option value="">Все платежи</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                            <option value="">За все время</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="payments__list">
+                    <div class="payments__item">
+                        <div class="date">18 апр<br> 23:22</div>
+                        <div class="name">Подписка на закрытый телеграмм-канал</div>
+                        <div class="price">15 550 руб.</div>
+                    </div>
+
+                    <div class="payments__item">
+                        <div class="date">18 апр<br> 23:22</div>
+                        <div class="name">Подписка на закрытый телеграмм-канал</div>
+                        <div class="price">15 550 руб.</div>
+                    </div>
+
+                    <div class="payments__item">
+                        <div class="date">18 апр<br> 23:22</div>
+                        <div class="name">Подписка на закрытый телеграмм-канал</div>
+                        <div class="price price--button"><img src="images/repeat.svg" alt=""> Повторить</div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+@@include('../parts/footer.html')

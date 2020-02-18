@@ -1,0 +1,154 @@
+@@include('../parts/header.html')
+
+<div class="widget-horizontal">
+    <img src="images/widget-horizontal.png" alt="" />
+</div>
+
+<div class="lk">
+    <div class="container">
+        <div class="lk__meta">
+            <div class="lk__avatar" style="background-image: url(images/avatar.png);">
+                <div class="add-avatar"><img src="images/add_avatar.svg" alt=""></div>
+            </div>
+            <div class="lk__name">
+                <strong>Артем Сребный</strong>
+                Ростов-на-Дону
+            </div>
+
+            <div class="lk__navigation">
+                <a href="/lk.html" class="lk__link lk__link--current"><img src="images/lk_ico1.svg" class="svg" alt="">
+                    Профиль</a>
+                <a href="/lk2.html" class="lk__link"><img src="images/lk_ico2.svg" class="svg" alt=""> Уведомления <span
+                        class="att">+99</span></a>
+                <a href="/lk3.html" class="lk__link"><img src="images/lk_ico3.svg" class="svg" alt=""> Платежи</a>
+                <a href="/lk4.html" class="lk__link"><img src="images/lk_ico4.svg" class="svg" alt=""> Сертификаты</a>
+                <a href="/lk5.html" class="lk__link"><img src="images/lk_ico5.svg" class="svg" alt=""> Виджеты</a>
+            </div>
+        </div>
+        <div class="lk__content">
+            <div class="breadcrumbs breadcrumbs--dark">
+                <a href="#">Главная</a>
+                <span class="sep">|</span>
+                <span class="current">Личный кабинет</span>
+            </div>
+            <h1>Профиль</h1>
+
+            <h2>Личные данные</h2>
+
+            <form action="#">
+
+                <div class="form-row">
+                    <div class="form-input">
+                        <div class="form-label">Имя</div>
+                        <input type="text" placeholder="Артем">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Фамилия</div>
+                        <input type="text" placeholder="Сребный">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Отчество</div>
+                        <input type="text" placeholder="Александрович">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-input">
+                        <div class="form-label">Страна</div>
+                        <input type="text" placeholder="Россия">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Город</div>
+                        <input type="text" placeholder="Ростов-на-Дону">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-input">
+                        <div class="form-label">Телефон</div>
+                        <input type="tel" placeholder="+7 916 854 65 42">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">E-mail</div>
+                        <input type="email" placeholder="mail@mail.ru">
+                    </div>
+                </div>
+
+                <h2>Дополнительные данные</h2>
+
+                <div class="form-row">
+                    <div class="form-area">
+                        <div class="form-label">Напишите немного о себе</div>
+                        <textarea name=""></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-input">
+                        <div class="form-label">ВКонтакте</div>
+                        <input type="url" placeholder="https://vk.com/">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Facebook</div>
+                        <input type="url" placeholder="https://www.facebook.com/">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Instagram</div>
+                        <input type="url" placeholder="https://instagram.com/">
+                    </div>
+                </div>
+
+                <h2>Настройки уведомлений</h2>
+
+                <div class="form-row">
+                    <div class="form-selector">
+                        <input type="checkbox" name="name" id="checkbox1">
+                        <label for="checkbox1">Push-уведомления</label>
+                    </div>
+                    <div class="form-selector">
+                        <input type="checkbox" checked name="name" id="checkbox2">
+                        <label for="checkbox2">E-mail рассылка</label>
+                    </div>
+                    <div class="form-selector">
+                        <input type="checkbox" checked name="name" id="checkbox3">
+                        <label for="checkbox3">Телеграмм рассылка</label>
+                    </div>
+                </div>
+
+                <h2>Безопасность</h2>
+
+                <div class="form-row">
+                    <div class="form-input">
+                        <div class="form-label">Текущий пароль</div>
+                        <input type="password">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Новый пароль</div>
+                        <input type="password">
+                    </div>
+
+                    <div class="form-input">
+                        <div class="form-label">Повторите пароль</div>
+                        <input type="password">
+                    </div>
+                </div>
+
+                <div class="form-buttons">
+                    <button class="button" type="submit">Cохранить изменения</button>
+                    <button class="button button--reset" type="reset">Cбросить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="clear"></div>
+
+@@include('../parts/footer.html')

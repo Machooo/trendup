@@ -1,0 +1,8 @@
+@function path($src, $dir: images) {
+	$src: unquote($src);
+	@return url(unquote("..")/$dir/$src);
+}
+
+$txt-color: #091522;
+$hover-color: #e20816;
+$trns: 300ms all linear;
